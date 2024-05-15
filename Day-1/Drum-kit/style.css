@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 html {
-    background-image: url("./images/spring-fed-images-CKYdtIyd_mw-unsplash.jpg");
+    background-image: url("./images/eric-masur-9JxubXPaidg-unsplash.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 120vw;
@@ -40,7 +40,7 @@ kbd {
     display: block;
 }
 .sound {
-    color: rgb(0, 255, 166);
+    color: rgb(2, 252, 210);
     font-size: 20px;
     letter-spacing: 0.1rem;
 }
