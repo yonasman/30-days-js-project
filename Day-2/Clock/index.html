@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Clock</title>
     <!--link to custom css-->
-    <link href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
+    <div class="digital-clock">
         <!-- digital watch -->
         <table>
             <tr>
-                <td rowspan="2"></td>
-                <div class="digital-meridian"></div>
+                <td rowspan="2">
+                    <div class="digital-meridian"></div>
+                </td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
             </tr>
-            <td>Hours</td>
-            <td>Minutes</td>
-            <td>Seconds</td>
             <tr>
                 <td><div class="digital-hour-hand"></div></td>
                 <td><div class="digital-min-hand"></div></td>
@@ -25,12 +26,14 @@
             </tr>
         </table>
     </div>
-        <!-- digital clock -->
-    <div class="clock"></div>
-    <div class="hand hour-hand"></div>
-    <div class="hand minute-hand"></div>
-    <div class="hand second-hand"></div>
-    <div class="clock-face"></div>
+        <!-- digital clock -->    
+    <div class="clock">
+        <div class="clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
     <!-- link to custom js -->
     <script src="./app.js"></script>
 </body>
